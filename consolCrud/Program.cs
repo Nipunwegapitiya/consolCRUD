@@ -7,7 +7,7 @@ internal class Program
     private static void Main(string[] args)
     {
         
-        string connectionString = @"Data Source=LAPTOP-QS4KHOTG\SQLEXPRESS;Initial Catalog=Consol_app;Integrated Security=True";
+        string connectionString = @"Data Source='Add Server name here' ;Initial Catalog=Consol_app;Integrated Security=True";
         SqlConnection sqlConnection = new SqlConnection(connectionString);
         sqlConnection.Open();
         try
